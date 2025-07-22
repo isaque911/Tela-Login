@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login 2.0</title>
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <script src="https://kit.fontawesome.com/6079536835.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style/style.css">
+    <script src="scripts/scripts.js" defer></script>
+</head>
+<body>
+    <div class="conteiner">
+
+        <div class="design">
+              
+                <h1>Bem-Vindo!</h1>
+
+                <h2>Login</h2>
+
+                <p>Faça login para continuar</p>
+
+                <form action="#" method="post" id="formulario">
+                    <div class="usuario">
+                        <i class="fa-solid fa-user" id="user-icon" onclick="user"></i>
+                        <input type="text" name="usuario" maxlength="20" id="campousuario" placeholder="Digite seu usuário" required>
+                    </div>
+
+                    <div class="email">
+                        <i class="fa-solid fa-envelope" id="email-icon"></i>
+                         <input type="email" name="email" maxlength="50" id="campoemail" placeholder="Digite seu e-mail" required>
+                    </div>
+
+                    <div class="senha">
+                        
+                        <i class="fa-solid fa-lock" id="lock"></i>
+                    <input type="password" name="senha" maxlength="32" id="camposenha" placeholder="Digite sua senha" required>
+
+                    </div>
+                    
+                    <input type="submit" value="Entrar" id="entrar">
+
+ 
+                </form>
+ 
+                <div class="links">
+ 
+                    <a href="esquecisenha/esquecisenha.html" id="esqueciSenha">Esqueci minha senha</a>
+ 
+                    <a href="cadastrar/cadastro.html" id="cadastrar">Cadastrar</a>
+ 
+                </div>
+                
+        </div>
+          
+    </div>
+
+<!-- footer
+
+  <div class="final">
+
+       <footer>
+            <p>&copy; Todos os direitos reservados</p>
+            <p>Desenvolvido por <a href="https://github.com/isaque911" target="_blank">isaque911</a></p>
+        </footer> 
+
+    </div>
+-->
+
+</body>
+</html>
